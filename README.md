@@ -1,12 +1,9 @@
-# Inicializar repositório local
-git init gestao-artefatos-pos-colheita-cafe
-cd gestao-artefatos-pos-colheita-cafe
+# Sistema de Pós-Colheita de Café
+Repositório destinado ao gerenciamento de artefatos, código-fonte e documentos do projeto de software para automação e rastreabilidade do processo de pós-colheita do café.
 
-# Criar arquivo inicial
-echo "# Sistema de Pós-Colheita de Café" > README.md
-git add README.md
-git commit -m "Criação do repositório e inclusão do arquivo inicial de documentação"
+## Objetivos
+- Centralizar o controle de versões
+- Garantir rastreabilidade das mudanças
+- Melhorar a colaboração entre o time de desenvolvimento
+- Manter histórico de decisões técnicas e operacionais
 
-# Vincular ao GitHub
-git remote add origin https://github.com/seu-usuario/gestao-artefatos-pos-colheita-cafe.git
-git push -u origin main
